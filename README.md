@@ -2,7 +2,7 @@
 
 Source code for our journal submission "ELD-Net: An efficient deep learning architecture for accurate saliency detection" which is an extended version of our CVPR 2016 paper "Deep Saliency with Encoded Low level Distance Map and High Level Features" by [Gayoung Lee](https://sites.google.com/site/gylee1103/), [Yu-Wing Tai](http://www.gdriv.es/yuwing) and [Junmo Kim](https://sites.google.com/site/siitkaist/professor). **([ArXiv paper link for CVPR paper] (http://arxiv.org/abs/1604.05495))**
 
-![Image of our model](./figs/model_pic.png)
+![Image of our model](./figs/model.png)
 
 Acknowledgement : Our code uses various libraries: [Caffe](http://github.com/BVLC/caffe), [OpenCV](http://www.opencv.org) and [Boost](http://www.boost.org). We utilize [gSLICr](https://github.com/carlren/gSLICr) with minor modification for superpixel generation.
 
@@ -16,7 +16,7 @@ Acknowledgement : Our code uses various libraries: [Caffe](http://github.com/BVL
     0. Boost : Tested on Boost 1.46
 
 2. **Installation**
-    0. Download our pretrained model from [(Link1)][https://www.dropbox.com/s/itv8donc7zifk8s/ELDNet_80K.caffemodel?dl=1] or [(Link2)][http://pan.baidu.com/s/1c27LKHy]
+    0. Download our pretrained model from [(Link1)](https://www.dropbox.com/s/itv8donc7zifk8s/ELDNet_80K.caffemodel?dl=1) or [(Link2)](http://pan.baidu.com/s/1c27LKHy)
        
         **NOTE: If you cannot download our ELD model from dropbox, please download it from [this Baidu link](http://pan.baidu.com/s/1jI94TAu).**
 
@@ -53,9 +53,9 @@ Acknowledgement : Our code uses various libraries: [Caffe](http://github.com/BVL
 
 ## Results of datasets used in the paper
 
-![visualization](./figs/visualization.png)
+![visualization](./figs/results.png)
 
-We provide our results of benchmark datasets used in the paper for convenience. Link1 is the link using dropbox and link2 is using baidu.
+We provide our results of benchmark datasets used in the paper for convenience. Link1 uses dropbox and link2 uses baidu.
 
 ECSSD results [(link1)](https://www.dropbox.com/s/zets1xsne570bgl/ECSSD_ELD.zip?dl=1) [(link2)](http://pan.baidu.com/s/1i4QslAP) (ECSSD dataset [site](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html))
 

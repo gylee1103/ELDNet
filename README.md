@@ -1,4 +1,4 @@
-## SaliencyELD
+## ELD-Net
 
 Source code for our journal submission "ELD-Net: An efficient deep learning architecture for accurate saliency detection" which is an extended version of our CVPR 2016 paper "Deep Saliency with Encoded Low level Distance Map and High Level Features" by [Gayoung Lee](https://sites.google.com/site/gylee1103/), [Yu-Wing Tai](http://www.gdriv.es/yuwing) and [Junmo Kim](https://sites.google.com/site/siitkaist/professor). **([ArXiv paper link for CVPR paper] (http://arxiv.org/abs/1604.05495))**
 
@@ -18,12 +18,6 @@ Acknowledgement : Our code uses various libraries: [Caffe](http://github.com/BVL
 2. **Installation**
     0. Download our pretrained model from [(Link1)](https://www.dropbox.com/s/itv8donc7zifk8s/ELDNet_80K.caffemodel?dl=1) or [(Link2)](http://pan.baidu.com/s/1c27LKHy)
        
-        **NOTE: If you cannot download our ELD model from dropbox, please download it from [this Baidu link](http://pan.baidu.com/s/1jI94TAu).**
-
-        ```shell
-        sh get_models.sh
-        ```
-
     0. Build Caffe in the project folder using CMake:
 
         ```shell
